@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    color: #648880;
+    
+}
+
+.head {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #293f50;
+}
+
+.logo {
+    color:white;
+    font-weight: 100;
+    font-size: 2.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 5px solid #648880;
+    width:135px;
+    margin: 0 auto 3rem;
+    padding-top: .5rem;
+}
+
+.nav-bar {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.nav-bar li {
+    display: inline;
+    padding: 1rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-bar ul {
+    margin-top: 1rem;
+}
+
+.nav-bar p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.hero h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.75rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.hero-staff {
+    background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+.hero-staff h1 {
+    color: #648880;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem
+}
+
+.hero-staff p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.staff-member h1 {
+    font-weight: 300;
+    text-transform: capitalize;
+    margin: 3rem;
+}
+
+.staff-member h3 {
+    color: lightgray;
+    text-transform: uppercase;
+    margin: 3rem;
+}
+
+.staff-member p {
+    /* font-size: 1.25rem; */
+    font-weight: 300;
+    margin: 3rem;
+}
+
+.call-card img {
+    border-radius: 50%;
+}
+
+.call-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.call-card p {
+    line-height: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.hero button {
+    background-color: #293f50;
+    color: white;
+    padding: 1.5rem 3rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+button:hover {
+    background-color: white;
+    color: #293f50;
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a:hover {
+    color: #648880;
+    font-weight: bolder;
+}
+
+.nav-bar-bottom a:hover {
+        color: #648880;
+        font-weight: bolder;
+}
+
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.product-card {
+    margin: 4rem;
+}
+
+.product-card h4 {
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: gray;
+}
+
+.product-card img {
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.product-card h2 {
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-card p {
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.foot {
+    background-color: #293f50;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 960px;
+    margin: 0 auto; 
+}
+
+.copyright {
+    padding: 1rem;
+    font-size: .75rem;
+}
+
+.nav-bar-bottom li {
+    display: inline;
+    padding: 1rem;   
+}
+
+.nav-bar-bottom {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+@media only screen and (min-width: 650px){
+
+    .head {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        margin: 0 1rem
+    }
+    
+    .nav-bar p {
+        text-align: right;
+        margin: 2.75rem 1rem 0 0
+    }
+
+    .hero h1 {
+        font-weight: 500;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+        font-weight: 100;
+        line-height: 1.5;
+        text-align: center;
+        margin: 2rem 1rem;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bio {
+        display: flex;
+    }
+
+}
